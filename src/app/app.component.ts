@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Platform, Nav } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -39,7 +39,6 @@ export class MyApp {
   }
 
   platformReady() {
-
     // Calls any initial plugins when ready
     // Here you can do any higher level native things you might need.
     this.platform.ready().then(() => {
